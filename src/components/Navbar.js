@@ -7,13 +7,14 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <h1>Verdulería Online</h1>
-      {location.pathname !== "/login" ? (
-        <Link to="/login" className="login-button">
-          Iniciar sesión
-        </Link>
-      ) : (
+      {location.pathname === "/login" ||
+      location.pathname === "/create-account" ? (
         <Link to="/" className="back-button">
           Volver
+        </Link>
+      ) : (
+        <Link to="/login" className="login-button">
+          Iniciar sesión
         </Link>
       )}
     </nav>

@@ -1,0 +1,100 @@
+/* Estilos para el contenedor del formulario de inicio de sesión */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Estilos para el título del formulario de inicio de sesión */
+.login-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.login-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form .form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button2 {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para el enlace de "Crear una cuenta" */
+.create-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.create-account a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Estilos para el contenedor del formulario de creación de cuenta */
+.create-account-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Estilos para el título del formulario de creación de cuenta */
+.create-account-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de creación de cuenta */
+.create-account-form .form-group {
+  margin-bottom: 15px;
+}
+
+.create-account-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-account-form .form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-account-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
